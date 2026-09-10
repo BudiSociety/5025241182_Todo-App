@@ -24,10 +24,10 @@ Aplikasi Todo List sederhana yang dibangun menggunakan **HTML** dan **CSS** murn
 ## 🖼️ Preview
 
 ### Tampilan Desktop
-![Desktop Preview](https://raw.githubusercontent.com/BudiSociety/5025241182_Todo-App/Images/preview-desktop.png)
+![Desktop Preview](https://github.com/BudiSociety/5025241182_Todo-App/blob/main/Cuplikan%20layar%202026-09-11%20020950.png)
 
 ### Tampilan Mobile
-![Desktop Preview](https://raw.githubusercontent.com/BudiSociety/5025241182_Todo-App/Images/preview-desktop.png)
+![Desktop Preview](https://github.com/BudiSociety/5025241182_Todo-App/blob/main/Cuplikan%20layar%202026-09-11%20020941.png)
 
 
 ## 🚀 Cara Menjalankan
