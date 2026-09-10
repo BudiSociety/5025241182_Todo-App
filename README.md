@@ -1,10 +1,9 @@
 # 5025241182_Todo App
 
-## 🧑‍💻 Identitas
 - **Nama**: Hatta Adzikra Fadly
 - **NRP**: 5025241182
 - **Mata Kuliah**: Pemrograman Web
-- **Kelas**: IF - Pemrograman Web - A
+- **Kelas**: A
 
 ## 📋 Deskripsi
 Aplikasi Todo List sederhana yang dibangun menggunakan **HTML** dan **CSS** murni (tanpa JavaScript), sesuai dengan ketentuan tugas. Aplikasi ini menampilkan:
@@ -38,6 +37,3 @@ Aplikasi Todo List sederhana yang dibangun menggunakan **HTML** dan **CSS** murn
    ```
 2. Buka file `index.html` langsung di browser (double-click atau drag ke tab browser).
 
-## 🛠️ Teknologi
-- HTML5
-- CSS3 (Flexbox & Grid)
