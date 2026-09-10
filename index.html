@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Daftar Tugas Saya</h1>
+  </header>
+
+  <main class="layout">
+
+    <aside class="panel panel-list">
+      <h2>Daftar Tugas</h2>
+
+      <ul class="todo-list">
+        <li class="todo-item active">
+          <span class="todo-name">Tugas Pemrograman Web</span>
+          <span class="todo-tag tag-high">Tinggi</span>
+        </li>
+        <li class="todo-item">
+          <span class="todo-name">Beli Susu</span>
+          <span class="todo-tag tag-low">Rendah</span>
+        </li>
+        <li class="todo-item">
+          <span class="todo-name">Perbaiki/Servis Motor</span>
+          <span class="todo-tag tag-medium">Sedang</span>
+        </li>
+        <li class="todo-item">
+          <span class="todo-name">Laundry</span>
+          <span class="todo-tag tag-medium">Sedang</span>
+        </li>
+      </ul>
+
+      <form class="todo-form">
+        <h2>Tambah Tugas Baru</h2>
+
+        <label for="title">Judul</label>
+        <input type="text" id="title" name="title" placeholder="Masukkan judul tugas" />
+
+        <label for="due">Tanggal Jatuh Tempo</label>
+        <input type="date" id="due" name="due" />
+
+        <label for="priority">Prioritas</label>
+        <select id="priority" name="priority">
+          <option>Tinggi</option>
+          <option selected>Sedang</option>
+          <option>Rendah</option>
+        </select>
+
+        <button type="submit">Tambah Tugas</button>
+      </form>
+    </aside>
+
+    <section class="panel panel-detail">
+      <h2>Tugas Pemrograman Web</h2>
+      <span class="todo-tag tag-high">Tinggi</span>
+
+      <dl class="detail-info">
+        <dt>Prioritas</dt>
+        <dd>Tinggi</dd>
+
+        <dt>Tanggal Jatuh Tempo</dt>
+        <dd>Hari ini</dd>
+
+        <dt>Mata Kuliah</dt>
+        <dd>Grafika Komputer</dd>
+      </dl>
+
+      <h3>Deskripsi</h3>
+      <p>
+        Menyelesaikan tugas praktikum Pemrograman Web berupa pembuatan
+        halaman Todo List menggunakan HTML dan CSS, termasuk membuat
+        tampilan yang responsif dan mengunggahnya ke repository GitHub.
+      </p>
+
+      <h3>Daftar Periksa</h3>
+      <ul class="checklist">
+        <li>Membuat struktur HTML semantik</li>
+        <li>Menyusun tampilan dua panel dengan Grid/Flexbox</li>
+        <li>Menguji tampilan responsif di mobile</li>
+        <li>Push ke repository GitHub</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Aplikasi Daftar Tugas</p>
+  </footer>
+
+</body>
+</html>
